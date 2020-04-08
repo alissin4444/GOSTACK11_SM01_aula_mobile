@@ -30,4 +30,4 @@ react-native run-android
 yarn dev
 ```
 
-Um server será aberto na rota http://localhost:3000/
+Um server será aberto na rota http://<ip>:8081/
