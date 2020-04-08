@@ -11,40 +11,7 @@ import {
 import api from "./services/api";
 
 export default function App() {
-  const [projects, setProjects] = useState([
-    {
-      id: 1,
-      title: "Umbriel",
-    },
-    {
-      id: 2,
-      title: "Nodejs",
-    },
-    {
-      id: 3,
-      title: "Reactjs",
-    },
-    {
-      id: 4,
-      title: "React Native",
-    },
-    {
-      id: 5,
-      title: "TypeORM",
-    },
-    {
-      id: 6,
-      title: "Adonisjs",
-    },
-    {
-      id: 7,
-      title: "Expressjs",
-    },
-    {
-      id: 8,
-      title: "Sequelize",
-    },
-  ]);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     api.get("projects").then((response) => setProjects(response.data));
