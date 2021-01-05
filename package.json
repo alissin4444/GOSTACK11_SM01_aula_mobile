@@ -11,7 +11,7 @@
     "dev": "adb reverse tcp:8081 tcp:8081 && react-native start"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "16.11.0",
     "react-native": "0.62.1"
   },
